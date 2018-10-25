@@ -1,1 +1,1 @@
-{"index.js":"let yourArray = [1, \"two\", 3, \"four\", true]; // change this line"}
+let yourArray = [1, "two", 3, "four", true]; // change this line
