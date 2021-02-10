@@ -1,1 +1,19 @@
-{"index.js":"function makeClass() {\n  \"use strict\";\n  /* Alter code below this line */\n  class Vegetable {\n    constructor(name){\n      this.name = name;\n    }\n  }\n  /* Alter code above this line */\n  return Vegetable;\n}\nconst Vegetable = makeClass();\nconst carrot = new Vegetable('carrot');\nconsole.log(carrot.name); // => should be 'carrot'\n\n"}
+// Use class Syntax to Define a Constructor Function
+
+/* // Only change code below this line
+
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot' */
+
+// Only change code below this line
+class Vegetable {
+    constructor(name) {
+        this.name = name;
+    }
+}
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
